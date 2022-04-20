@@ -1,6 +1,5 @@
 # Application for secure email exchange: encryption-decryption with AES in ECB mode
 
-
 ## Running the Application
 
 There are two ways to run the application : using `mvn spring-boot:run` or by running the `Application` class directly from your IDE.
@@ -28,10 +27,6 @@ After the application has started, you can view your it at http://localhost:9999
 (You can change the port from `application.properties` under `src/main/resources`. ( i.e. `src/main/resources/application.properties`)
 
 If you want to run the application locally in the production mode, use `spring-boot:run -Pproduction` command instead.
-
-
-
-
 
 
 ## Notes
